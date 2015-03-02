@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- General:
+     The syntax of colors is: AARRGGBB,
+     where AA ist the alpha value (FF=no transparency, 00= 100% transparency),
+     RR is the red part, GG the green part und BB the blue part
+     
+     A style is represented here as a string. The value must be FILL, STROKE
+     or FILL_AND_STROKE (the values of the Paint.Style constants)
+     
+     The boolean for anti-aliasing determine wheter anti-aliasing should be used or not.
+     Anti-aliasing causes nicer edges but less performance.
+     -->
+    
+    <!-- Properties of the routing path, which is shown is the user wants to have 
+         a route calculated -->
+    <color  name="routing_path_color">#ff0000ff</color>
+    <string name="routing_path_style">FILL</string>
+    <bool   name="routing_path_anti_aliasing">true</bool>   
+    
+    <!-- What should be painted if no tile could be loaded? -->
+    <!-- Note: currently this paint is unused! -->
+    <color  name="no_tile_color">#ffffffff</color>
+    <string name="no_tile_style">FILL</string>
+    <bool   name="no_tile_anti_aliasing">false</bool>
+ 
+    <!-- The fill of the circle, which is drawn around the user position -->
+    <color  name="user_position_circle_inline_color">#5003abb4</color>
+    <string name="user_position_circle_inline_style">FILL</string>
+    <bool   name="user_position_circle_inline_anti_aliasing">false</bool>
+    
+    <!-- The outer edge of the circle, which is drawn around the user position -->
+    <color  name="large_circle_outline_color">#ff000000</color>
+    <string name="large_circle_outline_style">STROKE</string>
+    <bool   name="large_circle_outline_aliasing">true</bool>
+    
+    <!-- The background, which is painted before a tile is painted -->
+    <!-- Normally only visible in overview mode or on flinging or if no tile could be loaded-->
+    <color  name="black_fill_color">#ff000000</color>
+    <string name="black_fill_style">FILL</string>
+    <bool   name="black_fill_anti_aliasing">false</bool>
+    
+    <!-- Properties of the text, which is shown on debug mode -->
+    <!-- The size is calculated at runtime dependend on the resolution -->
+    <color  name="debug_text_color">#ffff0000</color>
+    <string name="debug_text_style">STROKE</string>
+    <bool   name="debug_text_anti_aliasing">true</bool>
+    
+    <!-- Properties of the zones -->
+    <!-- Inside area -->
+    <color  name="zone_color">#A0FF0000</color>
+    <string name="zone_style">FILL</string>
+    <bool   name="zone_anti_aliasing">true</bool>
+    <!-- Outer Frame of the Zone -->
+    <color  name="zone_frame_color">#FFFF0000</color>
+    <string name="zone_frame_style">STROKE</string>
+    <bool   name="zone_frame_anti_aliasing">true</bool>
+    <dimen  name="zone_frame_width_base">36dp</dimen>
+    <!-- The following string determine how the end of the path is painted (if not set, 
+    the end of the path is painted quite ugly. For more information, see Paint.Cap, Paint.Join classes -->
+	<!-- Possible values: BUTT, ROUND, SQUARE -->
+ 	<string name="zone_frame_cap">ROUND</string>    
+ 	<!-- Possible values: BEVEL, MITER, ROUND -->
+    <string name="zone_frame_join">ROUND</string>
+    
+    <!-- Properties of the text of the zone names -->
+    <color  name="zone_name_color">#000000</color>
+    <string name="zone_name_style">STROKE</string>
+    <bool   name="zone_name_anti_aliasing">true</bool>
+    <!-- The Size of the Zone Name Text is in every paint cyclus multiplied by the
+    zoom factor and divided by the mmPerPixel, that is why this is such a huge dimension. -->
+    <dimen name="zone_name_size_base">480dp</dimen>
+    
+    
+    <!-- Warning: Currently the solid red fill paint is unused! -->
+    <color  name="solide_red_fill_color">#ffff0000</color>
+    <string name="solide_red_fill_style">FILL</string>
+    <bool   name="solide_red_fill_anti_aliasing">false</bool>
+    
+    <!-- Warning: Currently the solid fill paint is unused! -->
+    <color  name="solid_fill_color">#ff03abb4</color>
+    <string name="solid_fill_style">FILL</string>
+    <bool   name="solid_fill_anti_aliasing">true</bool>
+ 
+</resources>

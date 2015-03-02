@@ -1,0 +1,84 @@
+END USER LICENSE AGREEMENT
+
+This copy of indoo.rs SDK ("the Software") and accompanying documentation is licensed and not sold. This Software is protected by copyright laws and treaties, as well as laws and treaties related to other forms of intellectual property. Indoo.rs GmbH ("indoo.rs") or its subsidiaries, affiliates, and suppliers (collectively "Licensor") own intellectual property rights in the Software. The Licensee's ("Licensee" or "Licenseer") license to download, use, copy, or change the Software is subject to these rights and to all the terms and conditions of this End User License Agreement ("Agreement").
+
+Acceptance
+
+LICENSEE ACCEPTS AND AGREES TO BE BOUND BY THE TERMS OF THIS AGREEMENT BY SELECTING THE "ACCEPT" OPTION AND DOWNLOADING THE SOFTWARE PRODUCT OR BY INSTALLING, USING, OR COPYING THE SOFTWARE PRODUCT. LICENSEE MUST AGREE TO ALL OF THE TERMS OF THIS AGREEMENT BEFORE LICENSEE WILL BE ALLOWED TO DOWNLOAD THE SOFTWARE PRODUCT. IF LICENSEE DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, LICENSEE MUST SELECT "DECLINE" AND LICENSEE MUST NOT INSTALL, USE, OR COPY THE SOFTWARE PRODUCT.
+
+License Grant
+
+Licensor grants Licensee a non-exclusive, non-transferable License, without rights to sublicense, to use the Software in the country where the Licensee is invoiced in accordance with the Documentation and the indoo.rs license model specified in Section A of this EULA for which the Licensee has paid the applicable license fees.  The License is granted to the Licensee for non-commercial purposes only, so that the Licensee may evaluate the Software, or for trial development purposes.  The Licensee may allow third party consultants or contractors to access and use the Software on the Licensee‘s behalf solely for the Licensee‘s internal business operations, provided, they are bound by an agreement with the Licensee protecting indoo.rs’s intellectual property with terms no less stringent than this EULA and the Licensee ensures that such third party use of the Software complies with the terms of this EULA. The Licensee may make
+backups, unmodified copies of the Software solely for archival purpose.
+
+If the Licensee wishes to sell, lease, assign, license, sublicense, distribute or otherwise transfer in whole or in part the Software; permit any use of or access to the Software by any third party, or operate the Software on behalf of or for the benefit of any third party the Licensee must first provide indoo.rs with written notice and all reasonably requested information to sales@indoo.rs and permit indoo.rs to assess the Licensee‘s claim and,
+at indoo.rs’s sole discretion, to make an offer for a distribution or sub-license agreement and to provide alternatives that reduce any adverse impact on indoo.rs’s intellectual property or other rights or refuse the request.
+
+Restrictions
+
+Except as expressly permitted by this EULA or by applicable law, the Licensee may not (i) decompile, disassemble, reverse engineer, or otherwise attempt to derive source code from the Software; (ii) modify or create derivative works based upon the Software; or (iii) create, develop, license, install, use, or deploy any software or services to circumvent, enable, modify or provide access, permissions or rights which violate the technical restrictions in the Software. If the Licensee wishes to exercise any rights to reverse engineer to ensure interoperability in accordance with applicable law, the Licensee must first provide indoo.rs with written notice and all reasonably requested information to sales@indoo.rs within 30 days and permit indoo.rs to assess the Licensee‘s claim and, at indoo.rs’s sole discretion, to make an offer to provide alternatives that reduce any adverse impact on indoo.rs’s intellectual property or other rights.
+
+For further information regarding multiple copy licensing of the Software, please contact:
+
+indoo.rs GmbH
+Address: Europaring F15
+2345 Brun am Gebirge, AUSTRIA
+Phone Number: +43 699 17 09 7823
+E-mail Address: sales@indoo.rs
+
+
+Updates and Upgrades
+When installed on your computer, the Software periodically communicates with
+indoo.rs server. indoo.rs reserves the right to remotely provide updates or
+upgrades to the Software installed on your computer. Some updates might be provided for manual installation only. The use of the latest available release is obligatory. indoo.rs has no obligation to make available to you any subsequent versions or updates of its
+software applications.
+
+
+
+Restrictions on Transfer
+
+Without first obtaining the express written consent of Licensor, Licensee may not assign Licensee rights and obligations under this Agreement, or redistribute, encumber, sell, rent, lease, sublicense, or otherwise transfer Licensee rights to the Software.
+
+Licensee may not use the database portion of the Software in connection with any software other than the Software.
+
+Export Controls
+
+Without limiting the foregoing, the Licensee agrees that (1) the Licensee is not, and is
+not acting on behalf of, any person who is a citizen, national, or resident of, or who is controlled by the government of, Cuba, Iran, North Korea, Sudan, or Syria, or any other country to which the European Union and the United States have prohibited export transactions; (2) the Licensee will not use the Software for, and will not permit the Software to be used for, any purposes prohibited by law, including, without limitation, for any prohibited development, design, manufacture or production of missiles or nuclear, chemical or biological weapons.
+
+
+Disclaimer of Warranties and Limitation of Liability
+
+UNLESS OTHERWISE EXPLICITLY AGREED TO IN WRITING BY LICENSOR, LICENSOR MAKES NO OTHER WARRANTIES, EXPRESS OR IMPLIED, IN FACT OR IN LAW, INCLUDING, BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OTHER THAN AS SET FORTH IN THIS AGREEMENT.
+
+Licensor makes no warranty that the Software will meet Licenseer requirements or operate under Licenseer specific conditions of use. Licensor makes no warranty that operation of the Software will be secure, error free, or free from interruption. LICENSEE MUST DETERMINE WHETHER THE SOFTWARE PRODUCT SUFFICIENTLY MEETS LICENSEER REQUIREMENTS FOR SECURITY AND UNINTERRUPTABILITY. LICENSEE BEARS SOLE RESPONSIBILITY AND ALL LIABILITY FOR ANY LOSS INCURRED DUE TO FAILURE OF THE SOFTWARE PRODUCT TO MEET LICENSEER REQUIREMENTS. LICENSOR WILL NOT, UNDER ANY CIRCUMSTANCES, BE RESPONSIBLE OR LIABLE FOR THE LOSS OF DATA ON ANY COMPUTER OR INFORMATION STORAGE DEVICE. UNDER NO CIRCUMSTANCES SHALL LICENSOR, ITS DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS BE LIABLE TO LICENSEE OR ANY OTHER PARTY FOR INDIRECT, CONSEQUENTIAL, SPECIAL, INCIDENTAL, PUNITIVE, OR EXEMPLARY DAMAGES OF ANY KIND (INCLUDING LOST REVENUES OR PROFITS OR LOSS OF BUSINESS) RESULTING FROM THIS AGREEMENT, OR FROM THE FURNISHING, PERFORMANCE, INSTALLATION, OR USE OF THE SOFTWARE PRODUCT, WHETHER DUE TO A BREACH OF CONTRACT, BREACH OF WARRANTY, OR THE NEGLIGENCE OF LICENSOR OR ANY OTHER PARTY, EVEN IF LICENSOR IS ADVISED BEFOREHAND OF THE POSSIBILITY OF SUCH DAMAGES. TO THE EXTENT THAT THE APPLICABLE JURISDICTION LIMITS LICENSOR'S ABILITY TO DISCLAIM ANY IMPLIED WARRANTIES, THIS DISCLAIMER SHALL BE EFFECTIVE TO THE MAXIMUM EXTENT PERMITTED.
+
+Limitation of Remedies and Damages
+
+Any claim must be made within the applicable warranty period. All warranties cover only defects arising under normal use and do not include malfunctions or failure resulting from misuse, abuse, neglect, alteration, problems with electrical power, acts of nature, unusual temperatures or humidity, improper installation, or damage determined by Licensee to have been caused by Licensor. All limited warranties on the Software are granted only to Licensee and are non-transferable. Licensee agree to indemnify and hold Licensor harmless from all claims, judgments, liabilities, expenses, or costs arising from Licenseer breach of this Agreement and/or acts or omissions.
+
+Title
+
+indoo.rs retains all right, title, and interest in and to the Software, any associated License Key(s) and all related intellectual property rights. indoo.rs retains all rights not expressly granted to the Licensee in this EULA.
+
+Governing Law, Jurisdiction and Costs
+
+This Agreement is governed by the laws of Austria, without regard to Austria's conflict or
+choice of law provisions.
+
+Severability
+
+If any provision of this Agreement shall be held to be invalid or unenforceable, the remainder of this Agreement shall remain in full force and effect. To the extent any express or implied restrictions are not permitted by applicable laws, these express or implied restrictions shall remain in force and effect to the maximum extent permitted by such applicable laws. Licenseer remedy for a breach of this Agreement or of any warranty included in this Agreement is the correction or replacement of the Software. Selection of whether to correct or replace shall be solely at the discretion of Licensor. Licensor reserves the right to substitute a functionally equivalent copy of the Software as a replacement. If Licensor is unable to provide a replacement or substitute Software or corrections to the Software, Licenseer sole alternate remedy shall be a refund of the purchase price for the Software exclusive of any costs for shipping and handling.
+
+TERMINATION 
+
+indoo.rs may terminate this EULA immediately upon notice if the Licensee fails to comply with any term of this EULA. In the event of termination, the Licensee must remove and destroy all copies of the Software and Software License Key(s), including all backup copies, from the server and all computers and terminals the Licensee owns, possesses or controls and on which the Software is installed.  Sections relating to Export Controls, Title, Limitation of Liability, Limitation of Remedies and Damages, Disclaimer of Warranty, Restrictions, Restriction of Transfer and Export Control of this EULA shall survive termination for any reason.
+
+Installation and use of this software signifies acceptance of the EULA inclusive of any future updates.
+
+
+
+
+Section A
+
+Licence Fees - it's FREE!!

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/surfaceview_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/overlay_list_floors"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="6dip"
+            android:isScrollContainer="false"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/floors_fragment"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="left"
+                android:isScrollContainer="false" >
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/currentpositionbutton_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="6dp" >
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/zoombuttons_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="6dp" >
+        </FrameLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="220dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="6dip"
+        android:isScrollContainer="false"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/list_buildings_fragment"
+            android:name="com.customlbs.android.presentation.BuildingSelectionFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:isScrollContainer="false"
+            tools:layout="@layout/fragment_generic_list" />
+    </LinearLayout>
+
+</FrameLayout>

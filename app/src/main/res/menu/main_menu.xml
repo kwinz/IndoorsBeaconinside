@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_select_building"
+        android:icon="@drawable/ic_menu_building"
+        android:showAsAction="always"
+        android:title="@string/select_building"
+        android:titleCondensed="@string/select_building_cond"
+        android:visible="@bool/display_select_building"/>
+    <item
+        android:id="@+id/menu_select_route"
+        android:icon="@drawable/ic_menu_route"
+        android:showAsAction="always"
+        android:title="@string/select_route"
+        android:titleCondensed="@string/select_route"
+        android:visible="@bool/display_route_button"/>
+    <item
+        android:id="@+id/menu_search_invoke"
+        android:icon="@drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:title="Search zones"
+        android:visible="@bool/display_search_zone"/>
+    <!-- SUBMENU! -->
+    <item
+        android:id="@+id/menu_googlemaps"
+        android:title="Display position in Google Maps"/>
+    <item
+        android:id="@+id/menu_legalnotes"
+        android:title="@string/legalnotes"/>
+    <item
+        android:id="@+id/menu_debug_mode"
+        android:checkable="true"
+        android:checked="false"
+        android:title="Debug mode"
+        android:visible="@bool/display_debug_mode_button"/>
+    <item
+        android:id="@+id/menu_overview_map"
+        android:checkable="true"
+        android:checked="false"
+        android:title="@string/overview_map"
+        android:titleCondensed="@string/overview_map"
+        android:visible="@bool/display_overview_mode"/>
+    <item
+        android:id="@+id/menu_lock_on_me"
+        android:checkable="true"
+        android:title="@string/lock_on_button"
+        android:titleCondensed="@string/lock_on_button"
+        android:visible="@bool/display_lock_on"/>
+    <item
+        android:id="@+id/menu_show_all_zones"
+        android:checkable="true"
+        android:checked="@bool/default_show_all_zones"
+        android:title="Show all zones"
+        android:visible="@bool/display_show_all_zones"/>
+    <item
+        android:id="@+id/menu_zone_fencing"
+        android:checkable="true"
+        android:checked="@bool/default_zone_fencing_enabled"
+        android:title="Zone fencing"
+        android:visible="@bool/display_show_all_zones"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings"
+        android:visible="@bool/display_debug_mode_button"/>
+    <item
+        android:id="@+id/menu_direct_net"
+        android:title="Measurement Mode"/>
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#ffffff"
+  android:orientation="vertical">
+    <ImageView android:src="@drawable/logo" 
+    android:id="@+id/startupactivity_logo" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="1"
+    android:layout_marginTop="50dip">
+    </ImageView>
+    <TextView android:id="@+id/startupactivity_slogantext"
+    android:text="Let's find inside!"
+    android:textColor="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:textSize="25dip"
+    android:layout_gravity="center_horizontal">
+    </TextView>
+    <LinearLayout android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_weight="2">
+	</LinearLayout>
+    <ProgressBar style="@android:style/Widget.ProgressBar.Inverse"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/startupactivity_progressbar"
+    android:layout_weight="0">
+    </ProgressBar>
+    <LinearLayout android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_weight="2">
+    </LinearLayout>
+    <TextView android:id="@+id/startupactivity_progresstext"
+    android:text=""
+    android:layout_gravity="left"
+    android:textColor="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dip"
+    android:layout_weight="1"
+    android:layout_marginLeft="10dip">
+    </TextView>
+</LinearLayout>

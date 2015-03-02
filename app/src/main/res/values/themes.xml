@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="IndoorsApplicationTheme" parent="@style/AppTheme">
+
+        <!-- No Title Bar causes a bug on ICS which results in no ActionBar and
+        thereforce a NullPointerException in the application
+              https://github.com/JakeWharton/ActionBarSherlock/commit/e87492e6c6cd1eb7e83e98cbfe49630ae342ba15
+ 	       <item name="android:windowNoTitle">true</item>
+ 	       Workaround: Setting a Theme with no Action Bar in Loading screen (otherwise title of activity is shown)
+ 	       Then setting another theme in the onCreate of the viewer.
+        -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

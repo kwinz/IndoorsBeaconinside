@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Which mode should be active on start? Possible values: NONE No mode 
+		is active at start OVERVIEW Overview Mode is active at start LOCK_ON_ME Lock 
+		on user position is active at start DEBUG Debug Mode is active at start -->
+	<string name="default_mode">NONE</string>
+	<!-- default option if all zones are shown -->
+	<bool name="default_show_all_zones">false</bool>
+	<!-- default option if oriented navi arrow is used -->
+	<bool name="default_oriented_navigation_point_enabled">true</bool>
+	<!-- default option if the direct net protocol is used -->
+	<bool name="default_direct_net_enabled">false</bool>
+	<!-- default option if the zone fencing is enabled -->
+	<bool name="default_zone_fencing_enabled">true</bool>
+
+	<!-- Boolean if the button for the overview mode should be visible in the 
+		menu -->
+	<bool name="display_overview_mode">true</bool>
+	<!-- Boolean if the button for the lock-on-user mode should be visible in 
+		the menu -->
+	<bool name="display_lock_on">true</bool>
+	<!-- Boolean if the button for the debug mode should be visible -->
+	<bool name="display_debug_mode_button">true</bool>
+	<!-- Should it be possible to select a custom building? -->
+	<bool name="display_select_building">true</bool>
+	<!-- Should it be possible to select a custom floor? -->
+	<bool name="display_select_floor">true</bool>
+	<!-- Should it be possible to calculate a route via the route button? -->
+	<bool name="display_route_button">true</bool>
+	<!-- Should the user be able the search a zone? -->
+	<bool name="display_search_zone">true</bool>
+	<!-- Should there be a button to display all zones? -->
+	<bool name="display_show_all_zones">true</bool>
+	<!-- button to enable oriented navi arrow -->
+	<bool name="display_oriented_navigation_point">true</bool>
+	<!-- Boolean if the button for toggling the directnet protocol should be 
+		visible -->
+	<bool name="display_direct_net">true</bool>
+
+</resources>

@@ -1,0 +1,46 @@
+The indoo.rs Viewer app and indoo.rs Android SDK include a variety of third party libraries listed below, class-divided by their license.
+
+	1. Apache License version 2.0 (http://www.apache.org/licenses/)
+		1.1 apktool-lib
+			https://github.com/tony19/apktool-lib
+				
+		1.2 commons-math
+			http://commons.apache.org/proper/commons-math/
+	
+		1.3 crouton
+			https://github.com/keyboardsurfer/Crouton
+				
+		1.4 jackson
+			http://jackson.codehaus.org/
+				
+		1.5 support-v4
+			http://developer.android.com/tools/support-library/index.html
+				
+		1.6 validation-api
+			http://beanvalidation.org/
+				
+				
+	2. BSD 3-Clause License (http://opensource.org/licenses/BSD-3-Clause)
+		2.1 protobuf-java-lite
+			https://code.google.com/p/protobuf/
+			
+	3. Crittercism, Inc. Service Terms and Conditions (https://www.crittercism.com/terms-services/)
+		3.1 Crittercism
+			https://www.crittercism.com			
+				
+	4. EPL v1.0 (http://www.eclipse.org/legal/epl-v10.html)
+		3.1 logback-android
+			http://tony19.github.io/logback-android/
+			
+			
+	5. IOSL (http://opensource.org/licenses/intel-open-source-license.php)
+		5.1 JKalman
+			http://jkalman.sourceforge.net/
+				
+				
+	6. LGPL v2.1 (http://www.gnu.org/licenses/lgpl-2.1.html)
+		6.1 zbar
+			http://zbar.sourceforge.net/
+		
+		6.2 logback-android
+			http://tony19.github.io/logback-android/
