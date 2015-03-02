@@ -45,6 +45,7 @@ import com.customlbs.surface.library.ViewMode;
 import com.example.android.actionbarcompat.ActionBarActivity;
 
 import de.keyboardsurfer.android.widget.crouton.Crouton;
+import com.beaconinside.androidsdk.BeaconService;
 
 /**
  * IndoorsViewer is the main Activity of the IndoorsViewer application.
@@ -101,6 +102,9 @@ public final class IndoorsViewer extends ActionBarActivity implements OnBuilding
 
 	FragmentManager fragmentManager = getSupportFragmentManager();
 	if (savedInstanceState == null) {
+
+        BeaconService.init(this, "rCcRWxh6QrgeCa6bSJ64");
+
 	    IndoorsFactory.Builder indoorsBuilder = new IndoorsFactory.Builder();
 	    IndoorsSurfaceFactory.Builder surfaceBuilder = IndoorsSurfaceResourceFactory
 		    .fromXml(getResources());
