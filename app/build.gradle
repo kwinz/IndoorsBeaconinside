@@ -36,11 +36,6 @@ android {
     productFlavors {
     }
 }
-//dependencies {
-//    compile fileTree(include: '*.jar', dir: 'src/main/libs')
-//    compile 'com.android.support:support-v4:21.0.3'
-//    compile "com.sensorberg.sdk.bootstrapper:sensorberg-sdk-bootstrapper:${project.ext.sensorbergBootstrapperVersion}"
-//}
 
 dependencies {
 }
